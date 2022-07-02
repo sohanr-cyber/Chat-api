@@ -1,12 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
-  
+    "start": "nodemon index.js",
+    "build": "npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -19,5 +18,16 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.4.0",
     "nodemon": "^2.0.16"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sohanr-cyber/Chat-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sohanr-cyber/Chat-api/issues"
+  },
+  "homepage": "https://github.com/sohanr-cyber/Chat-api#readme",
+  "keywords": [],
+  "description": ""
 }
